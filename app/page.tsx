@@ -4,12 +4,6 @@ import { Page } from "@/devlink"
 
 export default function Home() {
   return (
-
-    <>
-
-      <Page />
-
-    </>
-
+    <Page />
   )
 }
