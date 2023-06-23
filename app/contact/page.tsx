@@ -1,4 +1,5 @@
-"use client"
+import "@/devlink/global.css";
+
 
 import { ContactParent } from "@/devlink"
 

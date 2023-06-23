@@ -20,7 +20,6 @@ export * from "./LoopingStrip";
 export * from "./MainContact";
 export * from "./MainWrapper";
 export * from "./Navbar";
-export * from "./Page";
 export * from "./PageBanner";
 export * from "./Preloader";
 export * from "./ServiceColumn";

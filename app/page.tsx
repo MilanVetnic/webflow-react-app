@@ -1,9 +1,11 @@
 "use client"
+import "@/devlink/global.css";
 
-import { Page } from "@/devlink"
+
+import { HomepageParent } from "@/devlink"
 
 export default function Home() {
   return (
-    <Page />
+    <HomepageParent />
   )
 }
