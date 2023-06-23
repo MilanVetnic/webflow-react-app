@@ -1,0 +1,369 @@
+.home-team {
+  background-color: var(--gainsboro-81d0871c);
+}
+
+.container-large {
+  width: 100%;
+  max-width: 105rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.padding-vertical {
+  padding-right: 0rem;
+  padding-left: 0rem;
+}
+
+@media screen and (max-width: 991px) {
+  .padding-vertical {
+    padding-right: 0rem;
+    padding-left: 0rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .padding-vertical {
+    padding-right: 0rem;
+    padding-left: 0rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .padding-vertical {
+    padding-right: 0rem;
+    padding-left: 0rem;
+  }
+}
+
+.padding-large {
+  padding: 5.3rem;
+}
+
+@media screen and (max-width: 991px) {
+  .padding-large {
+    padding: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .padding-large {
+    padding: 2.5rem;
+  }
+}
+
+.padding-xlarge {
+  padding: 8rem;
+}
+
+@media screen and (max-width: 991px) {
+  .padding-xlarge {
+    padding: 4.5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .padding-xlarge {
+    padding: 3.5rem;
+  }
+}
+
+.padding-medium {
+  padding: 3.8rem;
+}
+
+@media screen and (max-width: 991px) {
+  .padding-medium {
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .padding-medium {
+    padding: 1.6rem;
+  }
+}
+
+.padding-small {
+  padding: 1.9rem;
+}
+
+@media screen and (max-width: 991px) {
+  .padding-small {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .padding-small {
+    padding: 0.8rem;
+  }
+}
+
+.padding-xxsmall {
+  padding: 0.625rem;
+}
+
+@media screen and (max-width: 767px) {
+  .padding-xxsmall {
+    padding: 0.5rem;
+  }
+}
+
+.padding-horizontal {
+  width: 100%;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+@media screen and (max-width: 991px) {
+  .padding-horizontal {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .padding-horizontal {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .padding-horizontal {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+}
+
+.padding-xsmall {
+  padding: 1.3rem;
+}
+
+.margin-bottom {
+  margin-top: 0rem;
+  margin-right: 0rem;
+  margin-left: 0rem;
+}
+
+@media screen and (max-width: 991px) {
+  .margin-bottom {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-left: 0rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .margin-bottom {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-left: 0rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .margin-bottom {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-left: 0rem;
+  }
+}
+
+.margin-medium {
+  margin: 3.8rem;
+}
+
+@media screen and (max-width: 991px) {
+  .margin-medium {
+    margin: 3rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .margin-medium {
+    margin: 1.8rem;
+  }
+}
+
+.margin-xxsmall {
+  margin: 0.75rem;
+}
+
+.margin-tiny {
+  margin: 0.425rem;
+}
+
+.margin-small {
+  margin: 1.9rem;
+}
+
+@media screen and (max-width: 767px) {
+  .margin-small {
+    margin: 1.4rem;
+  }
+}
+
+.margin-xsmall {
+  margin: 1.3rem;
+}
+
+.home-works-top {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .home-works-top {
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home-works-top {
+    grid-row-gap: 1.5rem;
+  }
+}
+
+.clip-title {
+  position: relative;
+  z-index: 200;
+  overflow: hidden;
+  padding-top: 0vw;
+  border-bottom: 1px none var(--outlineDark-c15f6df4);
+}
+
+.heading-style-h1 {
+  font-size: 5rem;
+  line-height: 1.15;
+  letter-spacing: -0.15vw;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 991px) {
+  .heading-style-h1 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heading-style-h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .heading-style-h1 {
+    font-size: 2.65rem;
+  }
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.word-one {
+  display: inline-block;
+}
+
+.word-two {
+  display: inline-block;
+}
+
+.word-three {
+  display: inline-block;
+}
+
+.hoe-works-description {
+  display: flex;
+  max-width: 20rem;
+  padding-bottom: 0.75rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.text-size-regular {
+  font-size: 1.35rem;
+  line-height: 1.55;
+}
+
+.text-color-grey {
+  color: var(--textColor-65df1356);
+}
+
+.text-size-regular.dual-paragraph {
+  column-count: 2;
+  column-gap: 3rem;
+}
+
+@media screen and (max-width: 767px) {
+  .text-size-regular.dual-paragraph {
+    column-count: 1;
+  }
+}
+
+.service-grid {
+  position: sticky;
+  top: 0px;
+
+  display: grid;
+  overflow: hidden;
+  padding-right: 0rem;
+  padding-bottom: 0rem;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 0.625rem;
+  grid-row-gap: 0rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.home-team-block {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 1.9rem;
+  grid-row-gap: 3.8rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .home-team-block {
+    grid-column-gap: 0.625rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home-team-block {
+    grid-row-gap: 2.5rem;
+    grid-template-columns: 1fr;
+  }
+}
+
+#w-node-_3df9e124-f997-7632-effe-05a7a8316e2e-a8316e1c {
+  grid-column-end: 3;
+  grid-column-start: 2;
+  grid-row-end: 2;
+  grid-row-start: 1;
+}
+#w-node-_3df9e124-f997-7632-effe-05a7a8316e34-a8316e1c {
+  grid-column-end: 3;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-row-start: 1;
+}
+@media screen and (max-width: 991px) {
+  #w-node-_3df9e124-f997-7632-effe-05a7a8316e2e-a8316e1c {
+    grid-column-start: span 1;
+    grid-column-end: span 1;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+  }
+}

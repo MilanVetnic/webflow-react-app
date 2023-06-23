@@ -1,0 +1,29 @@
+.looping-strip {
+  display: flex;
+  align-items: center;
+  grid-column-gap: 0vw;
+  grid-row-gap: 0vw;
+  white-space: nowrap;
+}
+
+.home-hero-heading {
+  overflow: hidden;
+  margin-bottom: 0vw;
+}
+
+.heading-style-xl {
+  overflow: hidden;
+  perspective: 200vw;
+  font-size: 10.5vw;
+  line-height: 1.1;
+}
+
+.looping-line {
+  width: 5vw;
+  height: 0.35vw;
+  min-width: 5vw;
+  margin-right: 5vw;
+  margin-left: 5vw;
+
+  background-color: hsla(0, 0.00%, 0.00%, 1.00);
+}
